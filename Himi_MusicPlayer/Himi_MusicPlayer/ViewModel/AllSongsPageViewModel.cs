@@ -7,10 +7,13 @@ namespace Himi_MusicPlayer.ViewModel
     public partial class AllSongsPageViewModel : ObservableObject
     {
         [ObservableProperty]
-        ObservableCollection<string> listNhac;                           
+        ObservableCollection<string> listNhac;
         public AllSongsPageViewModel()
-        {
-            loadlist();
+        { 
+            listNhac = new ObservableCollection<string>();
+
+            Thread loadListNhacThread = new Thread(  () =>  {    LoadAllSongsList("/storage/emulated/0/Download/");    }   );
+            loadListNhacThread.Start();
           
         }
 
@@ -20,52 +23,32 @@ namespace Himi_MusicPlayer.ViewModel
 
         }
 
-        void loadlist()
+        string LoadAllSongsList(string path)
         {
-            int a = 0;
-            var tempList = new List<string>();
-            for(int i = 0; i <300;i++)
+            var Folders = Directory.GetDirectories(path,"*");
+            var Files = Directory.GetFiles(path,"*");
+            foreach(var folder in Folders) 
             {
-                a++;
-                tempList.Add(a.ToString());
+                var files = Directory.GetFiles(LoadAllSongsList(folder));
             }
-
-            ListNhac = new ObservableCollection<string>(tempList);
+            foreach(var file in Files)
+            {
+                FileInfo f = new FileInfo(file);
+                if(f.Extension == ".mp3")
+                {
+                    ListNhac.Add(f.Name);
+                }
+            }
+            if (Directory.GetDirectories(path).Length == 0)
+            {
+                return path;
+            }
+            else 
+            { 
+                return path; 
+            }
+           
         }
-
-
-       /* async Task task1()
-        {
-            Task t = new Task(
-               () =>
-               {
-                   int a = 0;
-
-                   for (int i = 0; i < 300; i++)
-                   {
-                       a++;
-                       ListNhac.Add(a.ToString()); 
-                   }
-               }
-               );
-            t.Start();
-            await t;
-        }
-       */
-      
-        //void khoitaoListNhac()
-        //{
-        //    //var files = Directory.GetFiles("/storage/emulated/0/DCIM/Screenshots/", "*");
-            
-        //    int a = 0;
-            
-        //    for (int i = 0; i < 300;i++)
-        //    {
-        //        a++;
-        //        ListNhac.Add(a.ToString());
-        //    }
-
-        //}
 
     }
 }

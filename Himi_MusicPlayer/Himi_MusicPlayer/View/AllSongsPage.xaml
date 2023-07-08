@@ -6,13 +6,15 @@
              x:DataType="viewmodel:AllSongsPageViewModel"
              x:Class="Himi_MusicPlayer.View.AllSongsPage"
              Title="Tất cả bài hát">
+    
+    
     <ScrollView>
-        <Grid RowDefinitions="100,auto,*">
+        <VerticalStackLayout>
                    
+
             <Frame Padding="4" 
                    BackgroundColor="LightBlue" 
-                   MaximumHeightRequest="42"
-                   Grid.Row="0">
+                   MaximumHeightRequest="42">
                 <StackLayout Orientation="Horizontal" 
                              BackgroundColor="LightBlue">
 
@@ -34,25 +36,33 @@
 
                 </StackLayout>
             </Frame>
+            
 
-
-            <CollectionView x:Name="listFile"
-                            ItemsSource="{Binding ListNhac}"
-                            Grid.Row="1">
+            <CollectionView ItemsSource="{Binding ListNhac}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame HeightRequest="40"
+                        <Frame HeightRequest="80"
                                Padding="5">
-                            <Grid>
+                            <Grid Padding="5,0,90,0">
+
                                 <Label Text="{Binding .}" 
                                        TextColor="Black"
-                                       FontSize="15"/>
+                                       FontSize="18"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Start"
+                                       FontFamily="Rounded Arial MT Bold" 
+                                       MaxLines="1"
+                                       FontAttributes="Bold"
+                                       WidthRequest="350"/>
+                             
                             </Grid>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            
-        </Grid>
-    </ScrollView>
+
+        </VerticalStackLayout>
+  </ScrollView>
+    
+    
 </ContentPage>
