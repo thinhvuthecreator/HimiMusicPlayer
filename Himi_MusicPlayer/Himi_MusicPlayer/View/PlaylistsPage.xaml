@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Himi_MusicPlayer.View.PlaylistsPage"
+             Title="Danh sách phát">
+    <VerticalStackLayout>
+        
+        <Frame  Padding="4" 
+                BackgroundColor="LightBlue" 
+                MaximumHeightRequest="42">
+            
+            <StackLayout Orientation="Horizontal" 
+                         BackgroundColor="LightBlue">
+                
+
+                <Label  Text="Tìm kiếm"
+                        TextColor="Black"
+                        Margin="10,0,10,0"
+                        VerticalTextAlignment="Center"/>
+
+                <Entry  Background="white" 
+                        WidthRequest="220" 
+                        HeightRequest="42"
+                        TextColor="Black"/>
+
+                <ImageButton  Source="lookup.png"
+                              Aspect="AspectFill" 
+                              HeightRequest="42" 
+                              WidthRequest="42"
+                              Padding="5"/>
+                
+
+            </StackLayout>      
+            
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Himi_MusicPlayer.ViewModel"
+             x:DataType="viewmodel:StartupPageViewModel"
+             x:Class="Himi_MusicPlayer.View.StartupPage"
+             Title="Trình phát nhạc Hi-mi"
+             BackgroundColor="Black">
+    <StackLayout>
+        <StackLayout.Resources>
+            <Style TargetType="Frame">
+                <Setter Property="MaximumHeightRequest" Value="120"/>
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Padding" Value="30,0,0,0"/>
+                <Setter Property="Padding" Value="2"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="17"/>
+                <Setter Property="Padding" Value="-140,0,0,0"/>
+            </Style>
+            <Style TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFill"/>
+                <Setter Property="HeightRequest" Value="{Binding Source={RelativeSource AncestorType={Type Frame}},Path=Heigth}"/>
+                <Setter Property="WidthRequest" Value="{Binding Source={RelativeSource AncestorType={Type Frame}},Path=Width}"/>
+            </Style>
+        </StackLayout.Resources>
+
+        <Frame>
+            <Grid>
+                <Image Source="hinh1.png">
+                </Image>
+                <Button Text="Tất cả bài hát" 
+                        Command="{Binding AllSongsClickCommand}"/>
+            </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid>
+                <Image Source="hinh1.png">
+                </Image>
+                <Button Text="Danh sách phát"
+                        Command="{Binding PlaylistClickCommand}"/>
+            </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid>
+                <Image Source="hinh1.png">
+                </Image>
+                <Button Text="Phát gần đây"/>
+            </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid>
+                <Image Source="hinh1.png">
+                </Image>
+                <Button Text="Thêm gần đây"/>
+            </Grid>
+        </Frame>
+
+    
+
+    </StackLayout>
+</ContentPage>

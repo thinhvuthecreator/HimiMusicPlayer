@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Himi_MusicPlayer.ViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewmodel:AllSongsPageViewModel"
+             x:Class="Himi_MusicPlayer.View.AllSongsPage"
+             Title="Tất cả bài hát">
+    <ScrollView>
+        <Grid RowDefinitions="100,auto,*">
+                   
+            <Frame Padding="4" 
+                   BackgroundColor="LightBlue" 
+                   MaximumHeightRequest="42"
+                   Grid.Row="0">
+                <StackLayout Orientation="Horizontal" 
+                             BackgroundColor="LightBlue">
+
+                    <Label Text="Tìm kiếm"
+                                   TextColor="Black"
+                                   Margin="10,0,10,0"
+                                   VerticalTextAlignment="Center"/>
+
+                    <Entry Background="white" 
+                                   WidthRequest="220" 
+                                   HeightRequest="42"
+                                   TextColor="Black"/>
+
+                    <ImageButton Source="lookup.png"
+                                         Aspect="AspectFill" 
+                                         HeightRequest="42" 
+                                         WidthRequest="42"
+                                         Padding="5"/>
+
+                </StackLayout>
+            </Frame>
+
+
+            <CollectionView x:Name="listFile"
+                            ItemsSource="{Binding ListNhac}"
+                            Grid.Row="1">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame HeightRequest="40"
+                               Padding="5">
+                            <Grid>
+                                <Label Text="{Binding .}" 
+                                       TextColor="Black"
+                                       FontSize="15"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        </Grid>
+    </ScrollView>
+</ContentPage>

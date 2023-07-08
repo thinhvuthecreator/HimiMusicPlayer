@@ -1,0 +1,37 @@
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Himi_MusicPlayer.View;
+
+namespace Himi_MusicPlayer.ViewModel
+{
+   public partial class StartupPageViewModel : ObservableObject
+    {   
+        public StartupPageViewModel()
+        {
+            
+        }
+
+
+        [RelayCommand]
+        async Task AllSongsClick()
+        {
+            await Shell.Current.GoToAsync(nameof(AllSongsPage));
+        }
+        [RelayCommand]
+        async Task PlaylistClick()
+        {
+            await Shell.Current.GoToAsync(nameof(PlaylistsPage));
+        }
+        [RelayCommand]
+        void PlayedRecentlyClick()
+        {
+            
+        }
+        [RelayCommand]
+        void AddedRecentlyClick()
+        {
+            
+        }
+
+    }
+}
