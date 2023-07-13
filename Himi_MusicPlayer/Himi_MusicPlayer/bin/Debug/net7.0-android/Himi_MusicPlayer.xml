@@ -7,15 +7,35 @@
         <member name="T:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ListNhac">
             <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.listNhac"/>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongChosen">
+            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songChosen"/>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongChosenPath">
+            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songChosenPath"/>
         </member>
         <member name="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.timKiemClickCommand">
             <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.TimKiemClickCommand"/>.</summary>
         </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.TimKiemClickCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.TimKiemClick"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songClick_SpecifySongCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_SpecifySongCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_SpecifySongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_SpecifySong(Microsoft.Maui.Controls.Label)"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songClick_PlaySongCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_PlaySongCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_PlaySongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_PlaySong(CommunityToolkit.Maui.Views.MediaElement)"/>.</summary>
         </member>
         <member name="T:Himi_MusicPlayer.ViewModel.PlaylistsPageViewModel">
             <inheritdoc/>
@@ -164,6 +184,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListNhac" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongChosen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongChosen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongChosenPath">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -172,6 +198,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListNhac" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongChosen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongChosen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongChosenPath">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>
         </member>
     </members>
 </doc>

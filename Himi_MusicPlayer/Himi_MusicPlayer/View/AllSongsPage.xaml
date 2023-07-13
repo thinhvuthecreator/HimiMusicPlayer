@@ -19,33 +19,40 @@
                              BackgroundColor="LightBlue">
 
                     <Label Text="Tìm kiếm"
-                                   TextColor="Black"
-                                   Margin="10,0,10,0"
-                                   VerticalTextAlignment="Center"/>
+                           TextColor="Black"
+                           Margin="10,0,10,0"
+                           VerticalTextAlignment="Center"/>
 
-                    <Entry Background="white" 
-                                   WidthRequest="220" 
-                                   HeightRequest="42"
-                                   TextColor="Black"/>
+                    <Entry x:Name="timKiemEntry"
+                           Background="white" 
+                           WidthRequest="220" 
+                           HeightRequest="42"
+                           TextColor="Black"/>
 
                     <ImageButton Source="lookup.png"
-                                         Aspect="AspectFill" 
-                                         HeightRequest="42" 
-                                         WidthRequest="42"
-                                         Padding="5"/>
+                                 Aspect="AspectFill" 
+                                 HeightRequest="42" 
+                                 WidthRequest="42"
+                                 Padding="5"/>
 
                 </StackLayout>
             </Frame>
-            
 
-            <CollectionView ItemsSource="{Binding ListNhac}">
+            <toolkit:MediaElement x:Name="mediaE"
+                                  Source="{Binding SongChosenPath}"
+                                  HeightRequest="250"/>
+
+
+            <CollectionView ItemsSource="{Binding ListNhac}"
+                            x:Name="listNhacCollection">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate x:DataType="viewmodel:AllSongsPageViewModel">
                         <Frame HeightRequest="80"
                                Padding="5">
-                            <Grid Padding="5,0,90,0">
 
+                            <Grid Padding="5,0,90,0">
                                 <Label Text="{Binding .}" 
+                                       x:Name="songNameLabel"
                                        TextColor="Black"
                                        FontSize="18"
                                        VerticalTextAlignment="Center"
@@ -53,9 +60,16 @@
                                        FontFamily="Rounded Arial MT Bold" 
                                        MaxLines="1"
                                        FontAttributes="Bold"
-                                       WidthRequest="350"/>
-                             
-                            </Grid>
+                                       WidthRequest="350">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_PlaySongCommand}" 
+                                                              CommandParameter="{x:Reference mediaE}"/>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_SpecifySongCommand}"
+                                                              CommandParameter="{x:Reference songNameLabel}"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                           </Grid>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

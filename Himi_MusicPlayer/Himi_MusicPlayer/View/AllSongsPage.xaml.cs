@@ -1,7 +1,4 @@
-
 using Himi_MusicPlayer.ViewModel;
-using Microsoft.Maui.Controls.PlatformConfiguration;
-
 namespace Himi_MusicPlayer.View;
 
 public partial class AllSongsPage : ContentPage
@@ -10,7 +7,26 @@ public partial class AllSongsPage : ContentPage
 	{
 		InitializeComponent();
 		BindingContext = vm;
-
     }
+
+    //public class ItemModel
+    //{
+    //    // other field  
+    //    public int Status { get; set; }  // Landscape and portrait  
+    //}
+
+    //public class MyDataTemplateSelector : DataTemplateSelector
+    //{
+
+
+    //    public DataTemplate LandTemplate { get; set; }
+
+    //    public DataTemplate PortraitTemplate { get; set; }
+
+    //    protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+    //    {
+    //        return ((ItemModel)item).Status == 0 ? LandTemplate : PortraitTemplate;
+    //    }
+    //}
 
 }

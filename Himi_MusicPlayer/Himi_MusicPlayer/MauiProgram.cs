@@ -14,13 +14,13 @@ public static class MauiProgram
 
 	public static MauiApp CreateMauiApp()
 	{
-        ServicePointManager.SecurityProtocol |= (SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
 
         var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
 			.UseMauiCommunityToolkit()
-			.ConfigureFonts(fonts =>
+            .UseMauiCommunityToolkitMediaElement()
+            .ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
@@ -29,10 +29,10 @@ public static class MauiProgram
 
 			builder.Services.AddSingleton<StartupPage>();
 			builder.Services.AddSingleton<StartupPageViewModel>();
-		    builder.Services.AddTransient<AllSongsPage>();
-			builder.Services.AddTransient<AllSongsPageViewModel>();
-			builder.Services.AddTransient<PlaylistsPage>();
-			builder.Services.AddTransient<PlaylistsPageViewModel>();
+		    builder.Services.AddSingleton<AllSongsPage>();
+			builder.Services.AddSingleton<AllSongsPageViewModel>();
+			builder.Services.AddSingleton<PlaylistsPage>();
+			builder.Services.AddSingleton<PlaylistsPageViewModel>();
 
 #if DEBUG
         builder.Logging.AddDebug();

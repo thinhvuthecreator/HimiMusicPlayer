@@ -604,6 +604,15 @@
     <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\communitytoolkit.maui\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\communitytoolkit.maui.core\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\communitytoolkit.maui.mediaelement\2.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.MediaElement.dll">
+      <PackagePath>CommunityToolkit.Maui.MediaElement.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
@@ -748,6 +757,9 @@
     <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\system.diagnostics.eventlog\7.0.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll">
       <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -768,6 +780,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\Resources\Raw\KeithApeDiamond.mp4">
+      <PackagePath>KeithApeDiamond.mp4</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

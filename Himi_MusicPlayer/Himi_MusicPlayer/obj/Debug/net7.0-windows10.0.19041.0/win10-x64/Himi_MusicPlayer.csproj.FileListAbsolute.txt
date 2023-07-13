@@ -347,3 +347,7 @@ D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.190
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Raygun4Maui.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Diagnostics.EventLog.Messages.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Diagnostics.EventLog.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.MediaElement.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Speech.dll

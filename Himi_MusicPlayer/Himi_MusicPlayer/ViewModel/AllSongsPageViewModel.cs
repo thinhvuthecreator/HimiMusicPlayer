@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Maui.Views;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 
@@ -8,6 +9,8 @@ namespace Himi_MusicPlayer.ViewModel
     {
         [ObservableProperty]
         ObservableCollection<string> listNhac;
+        [ObservableProperty]
+        String songChosenPath;
         public AllSongsPageViewModel()
         { 
             listNhac = new ObservableCollection<string>();
@@ -16,38 +19,60 @@ namespace Himi_MusicPlayer.ViewModel
             loadListNhacThread.Start();
           
         }
+        
+        string LoadAllSongsList(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                var Folders = Directory.GetDirectories(path, "*");
+                var Files = Directory.GetFiles(path, "*");
+                foreach (var folder in Folders)
+                {
+                    var files = Directory.GetFiles(LoadAllSongsList(folder));
+                }
+                foreach (var file in Files)
+                {
+                    FileInfo f = new FileInfo(file);
+                    if (f.Extension == ".mp3")
+                    {
+                        ListNhac.Add(f.Name);
+                    }
+                }
+                if (Directory.GetDirectories(path).Length == 0)
+                {
+                    return path;
+                }
+                else
+                {
+                    return path;
+                }
+            }
+            else { return path; }
+           
+        }
 
         [RelayCommand]
         void TimKiemClick()
         {
 
         }
-
-        string LoadAllSongsList(string path)
+        
+        [RelayCommand]
+        void SongClick_SpecifySong(Label l)
         {
-            var Folders = Directory.GetDirectories(path,"*");
-            var Files = Directory.GetFiles(path,"*");
-            foreach(var folder in Folders) 
+            SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
+        }
+        [RelayCommand]
+        void SongClick_PlaySong(MediaElement e)
+        {
+            if(e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
             {
-                var files = Directory.GetFiles(LoadAllSongsList(folder));
+                e.Play();
             }
-            foreach(var file in Files)
+            else if(e.CurrentState == CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
             {
-                FileInfo f = new FileInfo(file);
-                if(f.Extension == ".mp3")
-                {
-                    ListNhac.Add(f.Name);
-                }
+                e.Pause();
             }
-            if (Directory.GetDirectories(path).Length == 0)
-            {
-                return path;
-            }
-            else 
-            { 
-                return path; 
-            }
-           
         }
 
     }
