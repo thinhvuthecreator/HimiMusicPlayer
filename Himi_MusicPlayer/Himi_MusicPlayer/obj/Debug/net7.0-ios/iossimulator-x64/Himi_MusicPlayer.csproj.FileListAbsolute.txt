@@ -292,3 +292,6 @@ D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulato
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\Raygun4Maui.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\System.Diagnostics.EventLog.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.MediaElement.dll

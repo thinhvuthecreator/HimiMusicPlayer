@@ -13,9 +13,6 @@
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ListNhac">
             <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.listNhac"/>
         </member>
-        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongChosen">
-            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songChosen"/>
-        </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongChosenPath">
             <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.songChosenPath"/>
         </member>
@@ -184,9 +181,6 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListNhac" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongChosen">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongChosen" generated properties.</summary>
-        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongChosenPath">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>
         </member>
@@ -198,9 +192,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListNhac" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongChosen">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongChosen" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongChosenPath">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>

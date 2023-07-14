@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-13T06:31:45.649</Modified>
+      <Modified>2023-07-13T15:37:01.677</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-13T06:29:28.631</Modified>
+      <Modified>2023-07-13T15:37:01.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Himi_MusicPlayer.runtimeconfig.json">
       <PackagePath>Himi_MusicPlayer.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-09T16:05:50.389</Modified>
+      <Modified>2023-07-13T15:37:01.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Himi_MusicPlayer.dll">
       <PackagePath>Himi_MusicPlayer.dll</PackagePath>
-      <Modified>2023-07-13T06:31:43.935</Modified>
+      <Modified>2023-07-13T15:36:59.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Himi_MusicPlayer.exe</PackagePath>
-      <Modified>2023-07-13T06:31:44.092</Modified>
+      <Modified>2023-07-13T15:36:59.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\APTS\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1024,7 +1024,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Himi_MusicPlayer.deps.json">
       <PackagePath>Himi_MusicPlayer.deps.json</PackagePath>
-      <Modified>2023-07-13T06:31:45.450</Modified>
+      <Modified>2023-07-13T15:37:01.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1048,23 +1048,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.499</Modified>
+      <Modified>2023-07-13T15:28:06.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.515</Modified>
+      <Modified>2023-07-13T15:28:06.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.536</Modified>
+      <Modified>2023-07-13T15:28:06.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.738</Modified>
+      <Modified>2023-07-13T15:28:06.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.856</Modified>
+      <Modified>2023-07-13T15:28:06.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1076,207 +1076,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-07-03T07:03:20.026</Modified>
+      <Modified>2023-07-13T15:28:06.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.298</Modified>
+      <Modified>2023-07-13T15:28:07.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.311</Modified>
+      <Modified>2023-07-13T15:28:07.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.321</Modified>
+      <Modified>2023-07-13T15:28:07.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.338</Modified>
+      <Modified>2023-07-13T15:28:07.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.405</Modified>
+      <Modified>2023-07-13T15:28:07.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.090</Modified>
+      <Modified>2023-07-13T15:28:07.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.093</Modified>
+      <Modified>2023-07-13T15:28:07.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.118</Modified>
+      <Modified>2023-07-13T15:28:07.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.096</Modified>
+      <Modified>2023-07-13T15:28:07.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.111</Modified>
+      <Modified>2023-07-13T15:28:07.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.072</Modified>
+      <Modified>2023-07-13T15:28:06.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.074</Modified>
+      <Modified>2023-07-13T15:28:06.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.087</Modified>
+      <Modified>2023-07-13T15:28:07.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.077</Modified>
+      <Modified>2023-07-13T15:28:06.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.080</Modified>
+      <Modified>2023-07-13T15:28:07.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.034</Modified>
+      <Modified>2023-07-13T15:28:06.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.037</Modified>
+      <Modified>2023-07-13T15:28:06.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.040</Modified>
+      <Modified>2023-07-13T15:28:06.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.044</Modified>
+      <Modified>2023-07-13T15:28:06.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.049</Modified>
+      <Modified>2023-07-13T15:28:06.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.052</Modified>
+      <Modified>2023-07-13T15:28:06.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.055</Modified>
+      <Modified>2023-07-13T15:28:06.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.069</Modified>
+      <Modified>2023-07-13T15:28:06.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.058</Modified>
+      <Modified>2023-07-13T15:28:06.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.061</Modified>
+      <Modified>2023-07-13T15:28:06.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.165</Modified>
+      <Modified>2023-07-13T15:28:07.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.171</Modified>
+      <Modified>2023-07-13T15:28:07.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.177</Modified>
+      <Modified>2023-07-13T15:28:07.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.185</Modified>
+      <Modified>2023-07-13T15:28:07.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.228</Modified>
+      <Modified>2023-07-13T15:28:07.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.141</Modified>
+      <Modified>2023-07-13T15:28:07.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.144</Modified>
+      <Modified>2023-07-13T15:28:07.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.148</Modified>
+      <Modified>2023-07-13T15:28:07.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.153</Modified>
+      <Modified>2023-07-13T15:28:07.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.160</Modified>
+      <Modified>2023-07-13T15:28:07.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.122</Modified>
+      <Modified>2023-07-13T15:28:07.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.125</Modified>
+      <Modified>2023-07-13T15:28:07.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.128</Modified>
+      <Modified>2023-07-13T15:28:07.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.131</Modified>
+      <Modified>2023-07-13T15:28:07.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.138</Modified>
+      <Modified>2023-07-13T15:28:07.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.233</Modified>
+      <Modified>2023-07-13T15:28:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.240</Modified>
+      <Modified>2023-07-13T15:28:07.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.248</Modified>
+      <Modified>2023-07-13T15:28:07.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.260</Modified>
+      <Modified>2023-07-13T15:28:07.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.290</Modified>
+      <Modified>2023-07-13T15:28:07.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-07-03T07:03:19.975</Modified>
+      <Modified>2023-07-13T15:28:06.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.032</Modified>
+      <Modified>2023-07-13T15:28:06.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.045</Modified>
+      <Modified>2023-07-13T15:28:06.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.064</Modified>
+      <Modified>2023-07-13T15:28:06.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-07-03T07:03:20.111</Modified>
+      <Modified>2023-07-13T15:28:07.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hinh.scale-100.png">
       <PackagePath>hinh.scale-100.png</PackagePath>

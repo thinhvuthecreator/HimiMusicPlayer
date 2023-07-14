@@ -281,3 +281,6 @@ D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\mac
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Mindscape.Raygun4Net.NetCore.Common.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Raygun4Maui.dll
 D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.EventLog.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll
+D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.MediaElement.dll
