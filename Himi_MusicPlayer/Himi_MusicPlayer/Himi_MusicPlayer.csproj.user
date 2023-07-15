@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>OPPO CPH2127 (Android 12.0 - API 31)</ActiveDebugProfile>
+    <ActiveDebugProfile>OPPO CPH2127 (192.168.1.62:5555) (Android 12.0 - API 31)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <SelectedDevice>OPPO CPH2127</SelectedDevice>
   </PropertyGroup>
@@ -15,6 +15,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\PlaylistsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\PopUps\SongDetailPopUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\StartupPage.xaml">

@@ -65,7 +65,7 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void SongClick_PlaySong(MediaElement e)
         {
-            if(e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+            if (e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
             {
                 e.Play();
             }
@@ -73,6 +73,11 @@ namespace Himi_MusicPlayer.ViewModel
             {
                 e.Pause();
             }
+        }
+        [RelayCommand]
+        void ThreeDotClick()
+        {
+           
         }
 
     }

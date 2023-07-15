@@ -11206,8 +11206,9 @@ public final class R {
     public static final int notify_panel_notification_icon_bg=0x7f080121;
     public static final int splash=0x7f080122;
     public static final int test_level_drawable=0x7f080123;
-    public static final int tooltip_frame_dark=0x7f080124;
-    public static final int tooltip_frame_light=0x7f080125;
+    public static final int threedot=0x7f080124;
+    public static final int tooltip_frame_dark=0x7f080125;
+    public static final int tooltip_frame_light=0x7f080126;
   }
   public static final class font {
     public static final int roboto_medium_numbers=0x7f090000;

@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.Play
 build_metadata.AdditionalFiles.TargetPath = View\PlaylistsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PlaylistsPage.xaml
 
+[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/PopUps/SongDetailPopUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.PopUps.SongDetailPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = View\PopUps\SongDetailPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = View\PopUps\SongDetailPopUp.xaml
+
 [D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/StartupPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.StartupPage.xaml

@@ -967,6 +967,9 @@
     <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lookup.scale-100.png">
       <PackagePath>lookup.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\threedot.scale-100.png">
+      <PackagePath>threedot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\APTS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">

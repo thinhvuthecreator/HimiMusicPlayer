@@ -10,8 +10,6 @@
     
     <ScrollView>
         <VerticalStackLayout>
-                   
-
             <Frame Padding="4" 
                    BackgroundColor="LightBlue" 
                    MaximumHeightRequest="42">
@@ -45,22 +43,26 @@
 
             <CollectionView ItemsSource="{Binding ListNhac}"
                             x:Name="listNhacCollection">
+                
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="viewmodel:AllSongsPageViewModel">
-                        <Frame HeightRequest="80"
+                        <Frame x:Name="songFrame"
+                               HeightRequest="80"
                                Padding="5">
 
-                            <Grid Padding="5,0,90,0">
+                            <Grid ColumnDefinitions=".90*,.1*">
+                            
                                 <Label Text="{Binding .}" 
                                        x:Name="songNameLabel"
                                        TextColor="Black"
-                                       FontSize="18"
+                                       FontSize="15"
                                        VerticalTextAlignment="Center"
                                        HorizontalTextAlignment="Start"
                                        FontFamily="Rounded Arial MT Bold" 
                                        MaxLines="1"
                                        FontAttributes="Bold"
-                                       WidthRequest="350">
+                                       WidthRequest="330"
+                                       Grid.Column="0">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_PlaySongCommand}" 
                                                               CommandParameter="{x:Reference mediaE}"/>
@@ -68,8 +70,15 @@
                                                               CommandParameter="{x:Reference songNameLabel}"/>
                                     </Label.GestureRecognizers>
                                 </Label>
-
-                           </Grid>
+                                
+                                <ImageButton  Margin="0,0,0,0"
+                                              WidthRequest="20"
+                                              HeightRequest="{Binding Source={x:Reference songFrame},Path=HeightRequest}"
+                                              Source="threeDot.png"
+                                              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}},Path=ThreeDotClickCommand}"
+                                              Grid.Column="1"/>
+                                
+                            </Grid>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

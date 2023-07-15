@@ -1,3 +1,4 @@
+using CommunityToolkit.Maui.Views;
 using Himi_MusicPlayer.ViewModel;
 namespace Himi_MusicPlayer.View;
 
@@ -7,7 +8,10 @@ public partial class AllSongsPage : ContentPage
 	{
 		InitializeComponent();
 		BindingContext = vm;
+
     }
+
+  
 
     //public class ItemModel
     //{

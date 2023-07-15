@@ -9,6 +9,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ListNhac">
             <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.listNhac"/>
@@ -33,6 +34,12 @@
         </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_PlaySongCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.SongClick_PlaySong(CommunityToolkit.Maui.Views.MediaElement)"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.threeDotClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ThreeDotClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ThreeDotClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ThreeDotClick"/>.</summary>
         </member>
         <member name="T:Himi_MusicPlayer.ViewModel.PlaylistsPageViewModel">
             <inheritdoc/>

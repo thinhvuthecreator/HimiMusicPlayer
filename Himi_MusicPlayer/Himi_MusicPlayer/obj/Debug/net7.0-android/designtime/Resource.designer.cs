@@ -30728,10 +30728,13 @@ namespace Himi_MusicPlayer
 			public const int test_level_drawable = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int tooltip_frame_dark = 2131231012;
+			public const int threedot = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int tooltip_frame_light = 2131231013;
+			public const int tooltip_frame_dark = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int tooltip_frame_light = 2131231014;
 			
 			static Drawable()
 			{
