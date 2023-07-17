@@ -2178,3 +2178,4 @@ C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-android\resizetizer\r\drawable\xsign.png

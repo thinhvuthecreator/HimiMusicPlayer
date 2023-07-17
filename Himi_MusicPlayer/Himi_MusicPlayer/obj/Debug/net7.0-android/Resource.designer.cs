@@ -30736,6 +30736,9 @@ namespace Himi_MusicPlayer
 			// aapt resource value: 0x7F080126
 			public const int tooltip_frame_light = 2131231014;
 			
+			// aapt resource value: 0x7F080127
+			public const int xsign = 2131231015;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

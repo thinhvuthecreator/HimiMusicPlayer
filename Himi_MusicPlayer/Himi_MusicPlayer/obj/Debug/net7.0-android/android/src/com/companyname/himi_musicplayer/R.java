@@ -11209,6 +11209,7 @@ public final class R {
     public static final int threedot=0x7f080124;
     public static final int tooltip_frame_dark=0x7f080125;
     public static final int tooltip_frame_light=0x7f080126;
+    public static final int xsign=0x7f080127;
   }
   public static final class font {
     public static final int roboto_medium_numbers=0x7f090000;

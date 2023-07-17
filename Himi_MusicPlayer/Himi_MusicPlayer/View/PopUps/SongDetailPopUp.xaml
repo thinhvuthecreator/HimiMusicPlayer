@@ -3,16 +3,69 @@
                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
                x:Class="Himi_MusicPlayer.View.PopUps.SongDetailPopUp">
-    <VerticalStackLayout HeightRequest="500"
-                         WidthRequest="300">
-        <Frame>
-            <Grid>
-               <Label Text="Chi tiết bài hát"
-                      TextColor="Black"
-                      FontSize="Header"/>
+    <VerticalStackLayout WidthRequest="300">
+        <Frame BackgroundColor="Purple">
+            <Grid ColumnDefinitions="0.9*,0.1*">
+                <Label Text="Chi Tiết Bài Hát"
+                       TextColor="White"
+                       FontSize="Header"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       Grid.ColumnSpan="2"/>
+                <ImageButton Grid.Column="1"
+                             Source="xsign.png"
+                             HeightRequest="30"
+                             Margin="-2"
+                             Padding="1"/>
             </Grid>
         </Frame>
-                
-      
+        <Frame>
+            <Grid>
+                <Label Text="Đổi tên"
+                TextColor="Black"
+                FontSize="Header"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+        <Frame>
+            <Grid>
+                <Label Text="Xóa bài hát"
+                TextColor="Black"
+                FontSize="Header"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+        <Frame>
+            <Grid>
+                <Label Text="Thêm vào danh sách phát"
+           TextColor="Black"
+           FontSize="Header"
+           FontAttributes="Bold"
+           HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+        <Frame>
+            <Grid>
+                <Label Text="Cài làm nhạc chuông"
+           TextColor="Black"
+           FontSize="Header"
+           FontAttributes="Bold"
+           HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+        <Frame>
+            <Grid>
+                <Label Text="Thông tin bài hát"
+                TextColor="Black"
+                FontSize="Header"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+
+
     </VerticalStackLayout>
 </toolkit:Popup>
