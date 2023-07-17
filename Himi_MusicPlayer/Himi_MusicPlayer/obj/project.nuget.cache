@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wbiuf2m6PtTE6YaT5fJU7vbI3A/CYHa0t8BFTJ+EqeGygSDfbPe1RwlnyWRAKIL96pgTOJNgQBqrh1yP0CFN4w==",
+  "dgSpecHash": "nVpHjj7xw9R6HvD17YBQOcy87AfFBQhSOEkFVLAd5VfTZY2BCKiICzudWwEvo6gtPM7KRVfnpzu/zrmB04QQFw==",
   "success": true,
-  "projectFilePath": "D:\\VSProjects\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
+  "projectFilePath": "C:\\Users\\APTS\\Desktop\\MusicPlayerApp\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APTS\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
     "C:\\Users\\APTS\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",

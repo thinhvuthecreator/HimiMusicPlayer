@@ -51935,11 +51935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSProjects\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
+      "projectUniqueName": "C:\\Users\\APTS\\Desktop\\MusicPlayerApp\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
       "projectName": "Himi_MusicPlayer",
-      "projectPath": "D:\\VSProjects\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
+      "projectPath": "C:\\Users\\APTS\\Desktop\\MusicPlayerApp\\Himi_MusicPlayer\\Himi_MusicPlayer\\Himi_MusicPlayer.csproj",
       "packagesPath": "C:\\Users\\APTS\\.nuget\\packages\\",
-      "outputPath": "D:\\VSProjects\\Himi_MusicPlayer\\Himi_MusicPlayer\\obj\\",
+      "outputPath": "C:\\Users\\APTS\\Desktop\\MusicPlayerApp\\Himi_MusicPlayer\\Himi_MusicPlayer\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

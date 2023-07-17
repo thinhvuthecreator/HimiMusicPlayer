@@ -12,51 +12,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Himi_MusicPlayer
-build_property.ProjectDir = D:\VSProjects\Himi_MusicPlayer\Himi_MusicPlayer\
+build_property.ProjectDir = C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/App.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/AppShell.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/Resources/Styles/Colors.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/Resources/Styles/Styles.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/AllSongsPage.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/View/AllSongsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.AllSongsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AllSongsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AllSongsPage.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/PlaylistsPage.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/View/PlaylistsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.PlaylistsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PlaylistsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PlaylistsPage.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/PopUps/SongDetailPopUp.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/View/PopUps/SongDetailPopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.PopUps.SongDetailPopUp.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PopUps\SongDetailPopUp.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PopUps\SongDetailPopUp.xaml
 
-[D:/VSProjects/Himi_MusicPlayer/Himi_MusicPlayer/View/StartupPage.xaml]
+[C:/Users/APTS/Desktop/MusicPlayerApp/Himi_MusicPlayer/Himi_MusicPlayer/View/StartupPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Himi_MusicPlayer.View.StartupPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\StartupPage.xaml

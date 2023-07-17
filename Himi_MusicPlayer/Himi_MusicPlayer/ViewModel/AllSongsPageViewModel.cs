@@ -11,13 +11,14 @@ namespace Himi_MusicPlayer.ViewModel
         ObservableCollection<string> listNhac;
         [ObservableProperty]
         String songChosenPath;
-        public AllSongsPageViewModel()
+        IPopupService PopupService;
+        public AllSongsPageViewModel(IPopupService popupService)
         { 
             listNhac = new ObservableCollection<string>();
 
             Thread loadListNhacThread = new Thread(  () =>  {    LoadAllSongsList("/storage/emulated/0/Download/");    }   );
             loadListNhacThread.Start();
-          
+            PopupService = popupService;
         }
         
         string LoadAllSongsList(string path)
@@ -77,7 +78,7 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void ThreeDotClick()
         {
-           
+            PopupService.ShowPopup(new Himi_MusicPlayer.View.PopUps.SongDetailPopUp());
         }
 
     }
