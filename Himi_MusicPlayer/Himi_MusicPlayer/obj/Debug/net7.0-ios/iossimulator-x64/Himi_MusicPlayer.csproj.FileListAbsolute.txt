@@ -593,3 +593,4 @@ C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\Himi_MusicPlayer.pdb
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\Himi_MusicPlayer.genruntimeconfig.cache
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\ref\Himi_MusicPlayer.dll
+C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
