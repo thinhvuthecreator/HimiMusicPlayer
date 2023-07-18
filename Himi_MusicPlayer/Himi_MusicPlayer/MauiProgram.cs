@@ -29,14 +29,11 @@ public static class MauiProgram
 
 			builder.Services.AddSingleton<StartupPage>();
 			builder.Services.AddSingleton<StartupPageViewModel>();
-		    builder.Services.AddSingleton<AllSongsPage>();
-			builder.Services.AddSingleton<AllSongsPageViewModel>();
-			builder.Services.AddSingleton<PlaylistsPage>();
-			builder.Services.AddSingleton<PlaylistsPageViewModel>();
-			builder.Services.AddTransient<SongDetailPopUp>();
+		    builder.Services.AddTransient<AllSongsPage>();
+			builder.Services.AddTransient<AllSongsPageViewModel>();
+			builder.Services.AddTransient<PlaylistsPage>();
+			builder.Services.AddTransient<PlaylistsPageViewModel>();
 			builder.Services.AddTransient<IPopupService, PopupService>();
-			builder.Services.AddTransient<SongDetailPopUp>();
-			builder.Services.AddTransient<SongDetailViewModel>();
 
 #if DEBUG
         builder.Logging.AddDebug();
