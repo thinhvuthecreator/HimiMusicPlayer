@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Himi_MusicPlayer.View;
+using Microsoft.AppCenter.Crashes;
 
 namespace Himi_MusicPlayer.ViewModel
 {
@@ -8,7 +9,7 @@ namespace Himi_MusicPlayer.ViewModel
     {   
         public StartupPageViewModel()
         {
-            
+            crashRP();
         }
 
 
@@ -31,6 +32,10 @@ namespace Himi_MusicPlayer.ViewModel
         void AddedRecentlyClick()
         {
             
+        }
+        void crashRP()
+        {
+            Crashes.GenerateTestCrash();
         }
 
     }

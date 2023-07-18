@@ -1,5 +1,4 @@
 ﻿namespace Himi_MusicPlayer;
-
 public partial class App : Application
 {
 	public App()
@@ -7,5 +6,5 @@ public partial class App : Application
 		InitializeComponent();
 
 		MainPage = new AppShell();
-	}
+    }
 }

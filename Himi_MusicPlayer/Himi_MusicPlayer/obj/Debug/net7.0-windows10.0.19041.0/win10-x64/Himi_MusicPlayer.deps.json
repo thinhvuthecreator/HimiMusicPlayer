@@ -12,6 +12,8 @@
           "CommunityToolkit.Maui": "5.2.0",
           "CommunityToolkit.Maui.MediaElement": "2.0.0",
           "CommunityToolkit.Mvvm": "8.2.0",
+          "Microsoft.AppCenter.Analytics": "5.0.2",
+          "Microsoft.AppCenter.Crashes": "5.0.2",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
@@ -834,6 +836,42 @@
           }
         }
       },
+      "Microsoft.AppCenter/5.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "SQLitePCLRaw.bundle_green": "2.1.0",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Management": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.2.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -1206,6 +1244,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {},
       "Microsoft.WindowsAppSDK/1.2.221209.1": {
         "dependencies": {
@@ -1297,6 +1343,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
       "Raygun4Maui/1.2.2": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "7.0.1",
@@ -1322,6 +1376,67 @@
       "runtime.any.System.Text.Encoding/4.3.0": {},
       "runtime.any.System.Threading.Tasks/4.3.0": {},
       "runtime.win7.System.Private.Uri/4.3.0": {},
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.1.0.1603",
+            "fileVersion": "2.1.0.1603"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.1.0.1603",
+            "fileVersion": "2.1.0.1603"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.1.0.1603",
+            "fileVersion": "2.1.0.1603"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.Security.Permissions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/7.0.1": {},
       "System.Diagnostics.EventLog/7.0.0": {
         "runtime": {
@@ -1332,6 +1447,17 @@
           "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -1353,6 +1479,18 @@
           "runtime.any.System.IO": "4.3.0"
         }
       },
+      "System.Management/6.0.0": {
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
       "System.Private.Uri/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1401,6 +1539,27 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Security.AccessControl/6.0.0": {},
+      "System.Security.Cryptography.ProtectedData/6.0.0": {
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Windows.Extensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "System.Speech/7.0.0": {
         "runtime": {
           "runtimes/win/lib/net7.0/System.Speech.dll": {
@@ -1429,6 +1588,17 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "runtime.any.System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
         }
       }
     }
@@ -1491,6 +1661,27 @@
       "sha512": "sha512-F883u+B0AVUkRZS+VQBiZEJiqlGiiQhGA8Ejy1/Y8fl4ecBmSd+HYuDso0iiUhh+UxRDjp2aTQ7jGkuL2S4NrA==",
       "path": "communitytoolkit.mvvm/8.2.0",
       "hashPath": "communitytoolkit.mvvm.8.2.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AIxHDJsNpjvF7Gp+JU7N+iiSCKETzNCUD+SLt4LsgUc3NGo9FhPxqqJJxhN9RWSSFEtxKwCniPtBYqvjJLMS3w==",
+      "path": "microsoft.appcenter/5.0.2",
+      "hashPath": "microsoft.appcenter.5.0.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yDLYtsf+nmLdwLp49zyhJ+hibV4E2W1zNkFkSH5sot4kL+o+pnn0UUzr+OHobxJDlAC8qnhXvidtgs0pTndYkw==",
+      "path": "microsoft.appcenter.analytics/5.0.2",
+      "hashPath": "microsoft.appcenter.analytics.5.0.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v20yNCKbP3j6l0BcUjU9C9IZsl5Gq6vv+VXPzMV4W04j/Nsmn7WKKxoYqe5a0Djxm5vKCkVxTftQt/eQ0r3ZSw==",
+      "path": "microsoft.appcenter.crashes/5.0.2",
+      "hashPath": "microsoft.appcenter.crashes.5.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
@@ -1702,6 +1893,13 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
       "type": "package",
       "serviceable": true,
@@ -1729,6 +1927,13 @@
       "sha512": "sha512-zeVu7zQOcMmXZTwCwKEjqbl/0yEj4sBKuO//JK5QID//+54mmvirpJ1IOovTipBk9zqNwj70YZUHZfhy3Fx/yQ==",
       "path": "mindscape.raygun4net.netcore.common/6.5.3",
       "hashPath": "mindscape.raygun4net.netcore.common.6.5.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
     },
     "Raygun4Maui/1.2.2": {
       "type": "package",
@@ -1800,6 +2005,48 @@
       "path": "runtime.win7.system.private.uri/4.3.0",
       "hashPath": "runtime.win7.system.private.uri.4.3.0.nupkg.sha512"
     },
+    "SQLitePCLRaw.bundle_green/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VPLK8FzWwJ1RkAWClYOBmjlzFZbz9ME6pdmz0oCoZw736/oIdKldzTxz8S1YGielxYxGHDdK5FczZTOs8LUbbQ==",
+      "path": "sqlitepclraw.bundle_green/2.1.0",
+      "hashPath": "sqlitepclraw.bundle_green.2.1.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6khRuPd6ScBUQzV9bti+OtwqwFsMMgJzibhvbgiAIFVQhrowFOCM/Zq0xm00+nVEgEfPwWEOLhYvxs/5j+zAcg==",
+      "path": "sqlitepclraw.core/2.1.0",
+      "hashPath": "sqlitepclraw.core.2.1.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7p5ltRKUA/uScNRnd20Rg1c7cC4nWwUQIXRFITIR1G0wNCnJ9bj060VanPh2J352KOHpZ3CEOJKu3dMfyY4YMQ==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.0",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.1.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OwvGO4R0ujrdtTiIAiCN7C+2yVcLHtaF1ykcVe/Fb5KDqm1vfUxWinNYvw0S7NchpfTvR/9V9yugzqYTIvtTyA==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.0",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.0.nupkg.sha512"
+    },
+    "System.CodeDom/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+      "path": "system.codedom/6.0.0",
+      "hashPath": "system.codedom.6.0.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7T+m0kDSlIPTHIkPMIu6m6tV6qsMqJpvQWW2jIc2qi7sn40qxFo0q+7mEQAhMPXZHMKnWrnv47ntGlM/ejvw3g==",
+      "path": "system.configuration.configurationmanager/6.0.0",
+      "hashPath": "system.configuration.configurationmanager.6.0.0.nupkg.sha512"
+    },
     "System.Diagnostics.DiagnosticSource/7.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1814,6 +2061,13 @@
       "path": "system.diagnostics.eventlog/7.0.0",
       "hashPath": "system.diagnostics.eventlog.7.0.0.nupkg.sha512"
     },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
     "System.Globalization/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1827,6 +2081,20 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Management/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
+      "path": "system.management/6.0.0",
+      "hashPath": "system.management.6.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "System.Private.Uri/4.3.0": {
       "type": "package",
@@ -1870,6 +2138,27 @@
       "path": "system.runtime.serialization.primitives/4.3.0",
       "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
     },
+    "System.Security.AccessControl/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "path": "system.security.accesscontrol/6.0.0",
+      "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rp1gMNEZpvx9vP0JW0oHLxlf8oSiQgtno77Y4PLUBjSiDYoD77Y8uXHr1Ea5XG4/pIKhqAdxZ8v8OTUtqo9PeQ==",
+      "path": "system.security.cryptography.protecteddata/6.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
+      "path": "system.security.permissions/6.0.0",
+      "hashPath": "system.security.permissions.6.0.0.nupkg.sha512"
+    },
     "System.Speech/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1904,6 +2193,13 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     }
   },
   "runtimes": {

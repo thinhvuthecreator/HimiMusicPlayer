@@ -2,6 +2,9 @@
 using Himi_MusicPlayer.ViewModel;
 using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using Raygun4Maui;
 using System.Net;
 using Himi_MusicPlayer.View.PopUps;
@@ -27,7 +30,13 @@ public static class MauiProgram
 			})
 			.AddRaygun4Maui("bW5BZSbQdKQItjNJZ0AGQ");
 
-			builder.Services.AddSingleton<StartupPage>();
+			 AppCenter.Start("android=d3471427-9e8c-42b8-88e5-229e95f1d638;" +
+							 "uwp={Your UWP App secret here};" +
+							 "ios={Your iOS App secret here};" +
+						     "macos={Your macOS App secret here};",
+							  typeof(Analytics), typeof(Crashes));
+
+        builder.Services.AddSingleton<StartupPage>();
 			builder.Services.AddSingleton<StartupPageViewModel>();
 		    builder.Services.AddTransient<AllSongsPage>();
 			builder.Services.AddTransient<AllSongsPageViewModel>();
