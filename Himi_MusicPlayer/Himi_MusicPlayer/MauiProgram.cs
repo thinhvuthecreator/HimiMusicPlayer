@@ -6,6 +6,7 @@ using Raygun4Maui;
 using System.Net;
 using Himi_MusicPlayer.View.PopUps;
 
+
 namespace Himi_MusicPlayer;
 
 public static class MauiProgram
@@ -34,6 +35,8 @@ public static class MauiProgram
 			builder.Services.AddSingleton<PlaylistsPageViewModel>();
 			builder.Services.AddTransient<SongDetailPopUp>();
 			builder.Services.AddTransient<IPopupService, PopupService>();
+			builder.Services.AddTransient<SongDetailPopUp>();
+			builder.Services.AddTransient<SongDetailViewModel>();
 
 #if DEBUG
         builder.Logging.AddDebug();

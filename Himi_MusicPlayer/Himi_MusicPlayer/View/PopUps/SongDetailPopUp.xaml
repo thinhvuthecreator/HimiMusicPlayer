@@ -2,7 +2,10 @@
 <toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-               x:Class="Himi_MusicPlayer.View.PopUps.SongDetailPopUp">
+               xmlns:viewmodel="clr-namespace:Himi_MusicPlayer.ViewModel"
+               x:DataType="viewmodel:SongDetailViewModel"
+               x:Class="Himi_MusicPlayer.View.PopUps.SongDetailPopUp"
+               x:Name="SongDetailPopup">
     <VerticalStackLayout WidthRequest="300">
         <Frame BackgroundColor="Purple">
             <Grid ColumnDefinitions="0.9*,0.1*">
@@ -17,7 +20,9 @@
                              Source="xsign.png"
                              HeightRequest="30"
                              Margin="-2"
-                             Padding="1"/>
+                             Padding="1"
+                             Command="{Binding CloseIconClickCommand}"
+                             CommandParameter="{x:Reference SongDetailPopup}"/>
             </Grid>
         </Frame>
         <Frame>

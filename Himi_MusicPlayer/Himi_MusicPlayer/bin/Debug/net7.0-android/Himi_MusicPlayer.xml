@@ -50,6 +50,50 @@
         <member name="P:Himi_MusicPlayer.ViewModel.PlaylistsPageViewModel.TimKiemClickCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.PlaylistsPageViewModel.TimKiemClick"/>.</summary>
         </member>
+        <member name="T:Himi_MusicPlayer.ViewModel.SongDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.closeIconClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.CloseIconClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.CloseIconClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.CloseIconClick(CommunityToolkit.Maui.Views.Popup)"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.changeNameClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.ChangeNameClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.ChangeNameClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.ChangeNameClick"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.addToPlaylistClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.AddToPlaylistClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.AddToPlaylistClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.AddToPlaylistClick"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.deleteSongClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.DeleteSongClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.DeleteSongClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.DeleteSongClick"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.setPhoneSongClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SetPhoneSongClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SetPhoneSongClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SetPhoneSongClick"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.SongDetailViewModel.songInformationClickCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SongInformationClickCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SongInformationClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.SongDetailViewModel.SongInformationClick"/>.</summary>
+        </member>
         <member name="T:Himi_MusicPlayer.ViewModel.StartupPageViewModel">
             <inheritdoc/>
             <inheritdoc/>

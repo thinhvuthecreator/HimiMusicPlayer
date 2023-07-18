@@ -78,7 +78,8 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void ThreeDotClick()
         {
-           PopupService.ShowPopup(new Himi_MusicPlayer.View.PopUps.SongDetailPopUp());
+            SongDetailViewModel songDetailViewModel = new SongDetailViewModel();
+            PopupService.ShowPopup(new Himi_MusicPlayer.View.PopUps.SongDetailPopUp(songDetailViewModel));
         }
 
     }
