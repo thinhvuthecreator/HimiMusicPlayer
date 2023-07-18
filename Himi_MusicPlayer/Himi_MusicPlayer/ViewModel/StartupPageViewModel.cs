@@ -9,7 +9,7 @@ namespace Himi_MusicPlayer.ViewModel
     {   
         public StartupPageViewModel()
         {
-            crashRP();
+
         }
 
 
@@ -33,10 +33,7 @@ namespace Himi_MusicPlayer.ViewModel
         {
             
         }
-        void crashRP()
-        {
-            Crashes.GenerateTestCrash();
-        }
+
 
     }
 }
