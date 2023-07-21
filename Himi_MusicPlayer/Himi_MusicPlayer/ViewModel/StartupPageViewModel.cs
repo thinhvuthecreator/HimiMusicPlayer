@@ -26,12 +26,12 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void PlayedRecentlyClick()
         {
-            
+
         }
         [RelayCommand]
         void AddedRecentlyClick()
         {
-            
+
         }
 
 

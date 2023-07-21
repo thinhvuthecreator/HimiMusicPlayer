@@ -30,8 +30,7 @@
 
         <Frame>
             <Grid>
-                <Image Source="hinh1.png">
-                </Image>
+               
                 <Button Text="Tất cả bài hát" 
                         Command="{Binding AllSongsClickCommand}"/>
             </Grid>
@@ -39,8 +38,7 @@
 
         <Frame>
             <Grid>
-                <Image Source="hinh1.png">
-                </Image>
+                
                 <Button Text="Danh sách phát"
                         Command="{Binding PlaylistClickCommand}"/>
             </Grid>
@@ -48,16 +46,14 @@
 
         <Frame>
             <Grid>
-                <Image Source="hinh1.png">
-                </Image>
+                
                 <Button Text="Phát gần đây"/>
             </Grid>
         </Frame>
 
         <Frame>
             <Grid>
-                <Image Source="hinh1.png">
-                </Image>
+               
                 <Button Text="Thêm gần đây"/>
             </Grid>
         </Frame>
