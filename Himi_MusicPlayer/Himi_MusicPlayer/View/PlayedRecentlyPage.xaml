@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Himi_MusicPlayer.ViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewmodel:PlayedRecentlyPageViewModel"
+             x:Class="Himi_MusicPlayer.View.PlayedRecentlyPage"
+             Title="PlayedRecentlyPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame Padding="4" 
+                 BackgroundColor="LightBlue" 
+                 MaximumHeightRequest="42">
+                <StackLayout Orientation="Horizontal" 
+                           BackgroundColor="LightBlue">
+
+                    <Label Text="Tìm kiếm"
+                         TextColor="Black"
+                         Margin="10,0,10,0"
+                         VerticalTextAlignment="Center"/>
+
+                    <Entry x:Name="timKiemEntry"
+                         Background="white" 
+                         WidthRequest="220" 
+                         HeightRequest="42"
+                         TextColor="Black"/>
+
+                    <ImageButton Source="lookup.png"
+                               Aspect="AspectFill" 
+                               HeightRequest="42" 
+                               WidthRequest="42"
+                               Padding="5"/>
+
+                </StackLayout>
+            </Frame>
+
+            <toolkit:MediaElement x:Name="mediaE"
+                                Source="{Binding SongChosenPath}"
+                                HeightRequest="0"/>
+
+
+            <CollectionView ItemsSource="{Binding PlayedRecentlyList}"
+                          x:Name="listNhacCollection">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="viewmodel:PlayedRecentlyPageViewModel">
+                        <Frame x:Name="songFrame"
+                             HeightRequest="80"
+                             Padding="5">
+
+                            <Grid ColumnDefinitions=".90*,.1*">
+
+                                <Label Text="{Binding .}" 
+                                     x:Name="songNameLabel"
+                                     TextColor="Black"
+                                     FontSize="15"
+                                     VerticalTextAlignment="Center"
+                                     HorizontalTextAlignment="Start"
+                                     FontFamily="Rounded Arial MT Bold" 
+                                     MaxLines="1"
+                                     FontAttributes="Bold"
+                                     WidthRequest="330"
+                                     Grid.Column="0">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_PlaySongCommand}" 
+                                                            CommandParameter="{x:Reference mediaE}"/>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_SpecifySongCommand}"
+                                                            CommandParameter="{x:Reference songNameLabel}"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                                <ImageButton  Margin="0,0,0,0"
+                                            WidthRequest="20"
+                                            HeightRequest="{Binding Source={x:Reference songFrame},Path=HeightRequest}"
+                                            Source="threeDot.png"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}},Path=ThreeDotClickCommand}"
+                                            Grid.Column="1"/>
+
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

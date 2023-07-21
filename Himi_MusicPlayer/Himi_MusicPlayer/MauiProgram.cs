@@ -42,6 +42,8 @@ public static class MauiProgram
 			builder.Services.AddTransient<AllSongsPageViewModel>();
 			builder.Services.AddTransient<PlaylistsPage>();
 			builder.Services.AddTransient<PlaylistsPageViewModel>();
+		    builder.Services.AddTransient<PlayedRecentlyPage>();
+			builder.Services.AddTransient<PlayedRecentlyPageViewModel>();
 			builder.Services.AddTransient<IPopupService, PopupService>();
 
 #if DEBUG

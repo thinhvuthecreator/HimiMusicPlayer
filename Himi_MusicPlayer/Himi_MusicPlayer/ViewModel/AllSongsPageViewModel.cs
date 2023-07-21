@@ -62,6 +62,7 @@ namespace Himi_MusicPlayer.ViewModel
         void SongClick_SpecifySong(Label l)
         {
             SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
+            SongPlayedRecentlyList.songPlayedRecentlyList.Add(l.Text);
         }
         [RelayCommand]
         void SongClick_PlaySong(MediaElement e)

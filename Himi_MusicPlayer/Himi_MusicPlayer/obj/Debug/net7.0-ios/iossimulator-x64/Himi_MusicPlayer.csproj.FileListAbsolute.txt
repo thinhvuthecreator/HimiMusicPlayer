@@ -596,3 +596,4 @@ C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AppCenter.dll
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AppCenter.Analytics.dll
 C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AppCenter.Crashes.dll
+C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

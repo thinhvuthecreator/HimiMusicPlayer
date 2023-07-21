@@ -14,6 +14,9 @@
     <MauiXaml Update="View\AllSongsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\PlayedRecentlyPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\PlaylistsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
