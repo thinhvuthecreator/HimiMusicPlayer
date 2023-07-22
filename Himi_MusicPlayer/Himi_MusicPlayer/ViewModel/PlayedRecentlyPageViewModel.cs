@@ -35,7 +35,7 @@ namespace Himi_MusicPlayer.ViewModel
         {
             e.Source = MusicPlayer.mediaElement.Source;
             MusicPlayer.isPlayedBy = "PlayedRecentlyPage";
-            if (MusicPlayer.isPlayedBy == "PlayedRecentlyPage" && e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+            if (MusicPlayer.isPlayedBy == "PlayedRecentlyPage")
             {
                 e.Play();
             }

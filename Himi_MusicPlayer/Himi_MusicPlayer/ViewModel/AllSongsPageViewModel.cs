@@ -8,8 +8,6 @@ namespace Himi_MusicPlayer.ViewModel
     public partial class AllSongsPageViewModel : ObservableObject
     {
         [ObservableProperty]
-        string state = "";
-        [ObservableProperty]
         ObservableCollection<string> listNhac;
         [ObservableProperty]
         String songChosenPath;
@@ -75,7 +73,6 @@ namespace Himi_MusicPlayer.ViewModel
                 
                 e.Source = MusicPlayer.mediaElement.Source;
                 MusicPlayer.isPlayedBy = "AllSongsPage";
-                State = e.CurrentState.ToString();
                 if(MusicPlayer.isPlayedBy == "AllSongsPage")
                 {
                     e.Play();
