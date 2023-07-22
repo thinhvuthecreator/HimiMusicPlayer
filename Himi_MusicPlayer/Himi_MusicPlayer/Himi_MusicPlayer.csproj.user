@@ -23,6 +23,9 @@
     <MauiXaml Update="View\PopUps\SongDetailPopUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\SongPlayingPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\StartupPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
