@@ -83,10 +83,6 @@ namespace Himi_MusicPlayer.ViewModel
                 }
         }
 
-        bool checkTrung()
-        {
-            return true;
-        }
 
         [RelayCommand]
         void ThreeDotClick()
