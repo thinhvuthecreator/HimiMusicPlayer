@@ -22,7 +22,7 @@ namespace Himi_MusicPlayer.ViewModel
         void SongClick_SpecifySongRecently(Label l)
         {
             SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
-
+            MusicPlayer.mediaElement.Source = SongChosenPath;
             if (SongPlayedRecentlyList.songPlayedRecentlyList.IsExist(l.Text))
             {
                 SongPlayedRecentlyList.songPlayedRecentlyList.Remove(l.Text);
@@ -33,15 +33,18 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void SongClick_PlaySongRecently(MediaElement e)
         {
-            if (e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+            e.Source = MusicPlayer.mediaElement.Source;
+            MusicPlayer.isPlayedBy = "PlayedRecentlyPage";
+            if (MusicPlayer.isPlayedBy == "PlayedRecentlyPage" && e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
             {
                 e.Play();
             }
-            else if (e.CurrentState == CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+            else
             {
                 e.Pause();
             }
         }
+
         [RelayCommand]
         void ThreeDotClickRecently()
         {

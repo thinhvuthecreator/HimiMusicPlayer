@@ -62,20 +62,26 @@ namespace Himi_MusicPlayer.ViewModel
         void SongClick_SpecifySong(Label l)
         {
             SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
+            MusicPlayer.mediaElement.Source = SongChosenPath;
             SongPlayedRecentlyList.songPlayedRecentlyList.Add(l.Text);
         }
+
         [RelayCommand]
         void SongClick_PlaySong(MediaElement e)
         {
-            if (e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
-            {
-                e.Play();
-            }
-            else if(e.CurrentState == CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
-            {
-                e.Pause();
-            }
+
+                e.Source = MusicPlayer.mediaElement.Source;
+                MusicPlayer.isPlayedBy = "AllSongsPage";
+                if(MusicPlayer.isPlayedBy == "AllSongsPage" && e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+                {
+                    e.Play();
+                }
+                else
+                {
+                    e.Pause();
+                }
         }
+
         [RelayCommand]
         void ThreeDotClick()
         {

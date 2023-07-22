@@ -10,7 +10,7 @@ namespace Himi_MusicPlayer.ViewModel
         public StartupPageViewModel()
         {
 
-        }
+        } 
 
 
         [RelayCommand]

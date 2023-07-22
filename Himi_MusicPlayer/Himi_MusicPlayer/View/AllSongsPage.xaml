@@ -37,9 +37,7 @@
             </Frame>
 
             <toolkit:MediaElement x:Name="mediaE"
-                                  Source="{Binding SongChosenPath}"
                                   HeightRequest="0"/>
-
 
             <CollectionView ItemsSource="{Binding ListNhac}"
                             x:Name="listNhacCollection">
@@ -64,10 +62,12 @@
                                        WidthRequest="330"
                                        Grid.Column="0">
                                     <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_PlaySongCommand}" 
-                                                              CommandParameter="{x:Reference mediaE}"/>
+                                       
                                         <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_SpecifySongCommand}"
                                                               CommandParameter="{x:Reference songNameLabel}"/>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AllSongsPageViewModel}}, Path=SongClick_PlaySongCommand}"
+                                                              CommandParameter="{x:Reference mediaE}"/>
+
                                     </Label.GestureRecognizers>
                                 </Label>
                                 
