@@ -62,9 +62,9 @@
                                      WidthRequest="330"
                                      Grid.Column="0">
                                     <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_PlaySongCommand}" 
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_PlaySongRecentlyCommand}" 
                                                             CommandParameter="{x:Reference mediaE}"/>
-                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_SpecifySongCommand}"
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}}, Path=SongClick_SpecifySongRecentlyCommand}"
                                                             CommandParameter="{x:Reference songNameLabel}"/>
                                     </Label.GestureRecognizers>
                                 </Label>
@@ -73,7 +73,7 @@
                                             WidthRequest="20"
                                             HeightRequest="{Binding Source={x:Reference songFrame},Path=HeightRequest}"
                                             Source="threeDot.png"
-                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}},Path=ThreeDotClickCommand}"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayedRecentlyPageViewModel}},Path=ThreeDotClickRecentlyCommand}"
                                             Grid.Column="1"/>
 
                             </Grid>

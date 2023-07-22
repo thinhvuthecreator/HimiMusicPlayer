@@ -5,7 +5,7 @@ namespace Himi_MusicPlayer
 {
     public class SongPlayedRecentlyList : ObservableObject
     {
-        public static ObservableCollection<string> songPlayedRecentlyList = new ObservableCollection<string>();
+        public static CustomObservableCollection<string> songPlayedRecentlyList = new CustomObservableCollection<string>();
         SongPlayedRecentlyList() 
         {
 

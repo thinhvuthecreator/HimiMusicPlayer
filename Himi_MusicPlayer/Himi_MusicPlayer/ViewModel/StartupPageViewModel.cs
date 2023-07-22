@@ -24,9 +24,9 @@ namespace Himi_MusicPlayer.ViewModel
             await Shell.Current.GoToAsync(nameof(PlaylistsPage));
         }
         [RelayCommand]
-        void PlayedRecentlyClick()
+        async Task PlayedRecentlyClick()
         {
-
+            await Shell.Current.GoToAsync(nameof(PlayedRecentlyPage));
         }
         [RelayCommand]
         void AddedRecentlyClick()

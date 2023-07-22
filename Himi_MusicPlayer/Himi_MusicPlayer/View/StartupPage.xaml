@@ -46,8 +46,9 @@
 
         <Frame>
             <Grid>
+                <Button Text="Phát gần đây"
+                        Command="{Binding PlayedRecentlyClickCommand}"/>
                 
-                <Button Text="Phát gần đây"/>
             </Grid>
         </Frame>
 

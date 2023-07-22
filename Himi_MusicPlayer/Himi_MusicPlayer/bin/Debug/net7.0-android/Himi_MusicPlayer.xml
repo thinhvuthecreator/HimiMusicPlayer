@@ -41,6 +41,36 @@
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ThreeDotClickCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ThreeDotClick"/>.</summary>
         </member>
+        <member name="T:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.PlayedRecentlyList">
+            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.playedRecentlyList"/>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongChosenPath">
+            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.songChosenPath"/>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.songClick_SpecifySongRecentlyCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_SpecifySongRecentlyCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_SpecifySongRecentlyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_SpecifySongRecently(Microsoft.Maui.Controls.Label)"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.songClick_PlaySongRecentlyCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_PlaySongRecentlyCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_PlaySongRecentlyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.SongClick_PlaySongRecently(CommunityToolkit.Maui.Views.MediaElement)"/>.</summary>
+        </member>
+        <member name="F:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.threeDotClickRecentlyCommand">
+            <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.ThreeDotClickRecentlyCommand"/>.</summary>
+        </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.ThreeDotClickRecentlyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.PlayedRecentlyPageViewModel.ThreeDotClickRecently"/>.</summary>
+        </member>
         <member name="T:Himi_MusicPlayer.ViewModel.PlaylistsPageViewModel">
             <inheritdoc/>
         </member>
@@ -116,7 +146,7 @@
             <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.StartupPageViewModel.PlayedRecentlyClickCommand"/>.</summary>
         </member>
         <member name="P:Himi_MusicPlayer.ViewModel.StartupPageViewModel.PlayedRecentlyClickCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.StartupPageViewModel.PlayedRecentlyClick"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Himi_MusicPlayer.ViewModel.StartupPageViewModel.PlayedRecentlyClick"/>.</summary>
         </member>
         <member name="F:Himi_MusicPlayer.ViewModel.StartupPageViewModel.addedRecentlyClickCommand">
             <summary>The backing field for <see cref="P:Himi_MusicPlayer.ViewModel.StartupPageViewModel.AddedRecentlyClickCommand"/>.</summary>
@@ -235,6 +265,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongChosenPath">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PlayedRecentlyList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PlayedRecentlyList" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -246,6 +279,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongChosenPath">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongChosenPath" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PlayedRecentlyList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PlayedRecentlyList" generated properties.</summary>
         </member>
     </members>
 </doc>

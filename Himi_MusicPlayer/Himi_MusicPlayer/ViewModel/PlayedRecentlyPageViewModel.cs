@@ -12,20 +12,26 @@ namespace Himi_MusicPlayer.ViewModel
         [ObservableProperty]
         String songChosenPath;
         IPopupService PopupService;
-        PlayedRecentlyPageViewModel(IPopupService popupService) 
+        public PlayedRecentlyPageViewModel(IPopupService popupService) 
         {
             playedRecentlyList = SongPlayedRecentlyList.songPlayedRecentlyList;
             PopupService = popupService;
         }
 
         [RelayCommand]
-        void SongClick_SpecifySong(Label l)
+        void SongClick_SpecifySongRecently(Label l)
         {
             SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
-            SongPlayedRecentlyList.songPlayedRecentlyList.Add(l.Text);
+
+            if (SongPlayedRecentlyList.songPlayedRecentlyList.IsExist(l.Text))
+            {
+                SongPlayedRecentlyList.songPlayedRecentlyList.Remove(l.Text);
+            }
+                SongPlayedRecentlyList.songPlayedRecentlyList.Add(l.Text);
+          
         }
         [RelayCommand]
-        void SongClick_PlaySong(MediaElement e)
+        void SongClick_PlaySongRecently(MediaElement e)
         {
             if (e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
             {
@@ -37,7 +43,7 @@ namespace Himi_MusicPlayer.ViewModel
             }
         }
         [RelayCommand]
-        void ThreeDotClick()
+        void ThreeDotClickRecently()
         {
             SongDetailViewModel songDetailViewModel = new SongDetailViewModel();
             PopupService.ShowPopup(new Himi_MusicPlayer.View.PopUps.SongDetailPopUp(songDetailViewModel));
