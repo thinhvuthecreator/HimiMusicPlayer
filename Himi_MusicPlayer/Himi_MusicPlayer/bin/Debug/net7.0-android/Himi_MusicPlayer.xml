@@ -11,6 +11,9 @@
             <inheritdoc/>
             <inheritdoc/>
         </member>
+        <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.State">
+            <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.state"/>
+        </member>
         <member name="P:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.ListNhac">
             <inheritdoc cref="F:Himi_MusicPlayer.ViewModel.AllSongsPageViewModel.listNhac"/>
         </member>
@@ -259,6 +262,9 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.State">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "State" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListNhac" generated properties.</summary>
         </member>
@@ -273,6 +279,9 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.State">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "State" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListNhac">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListNhac" generated properties.</summary>

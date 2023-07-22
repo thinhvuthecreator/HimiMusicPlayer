@@ -25,7 +25,8 @@
                            Background="white" 
                            WidthRequest="220" 
                            HeightRequest="42"
-                           TextColor="Black"/>
+                           TextColor="Black"
+                           Text="{Binding State}"/>
 
                     <ImageButton Source="lookup.png"
                                  Aspect="AspectFill" 

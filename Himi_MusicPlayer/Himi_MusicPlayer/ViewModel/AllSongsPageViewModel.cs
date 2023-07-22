@@ -8,6 +8,8 @@ namespace Himi_MusicPlayer.ViewModel
     public partial class AllSongsPageViewModel : ObservableObject
     {
         [ObservableProperty]
+        string state = "";
+        [ObservableProperty]
         ObservableCollection<string> listNhac;
         [ObservableProperty]
         String songChosenPath;
@@ -62,6 +64,7 @@ namespace Himi_MusicPlayer.ViewModel
         void SongClick_SpecifySong(Label l)
         {
             SongChosenPath = "file:///storage/emulated/0/Download/" + l.Text;
+            
             MusicPlayer.mediaElement.Source = SongChosenPath;
             SongPlayedRecentlyList.songPlayedRecentlyList.Add(l.Text);
         }
@@ -69,10 +72,11 @@ namespace Himi_MusicPlayer.ViewModel
         [RelayCommand]
         void SongClick_PlaySong(MediaElement e)
         {
-
+                
                 e.Source = MusicPlayer.mediaElement.Source;
                 MusicPlayer.isPlayedBy = "AllSongsPage";
-                if(MusicPlayer.isPlayedBy == "AllSongsPage" && e.CurrentState != CommunityToolkit.Maui.Core.Primitives.MediaElementState.Playing)
+                State = e.CurrentState.ToString();
+                if(MusicPlayer.isPlayedBy == "AllSongsPage")
                 {
                     e.Play();
                 }
@@ -80,6 +84,11 @@ namespace Himi_MusicPlayer.ViewModel
                 {
                     e.Pause();
                 }
+        }
+
+        bool checkTrung()
+        {
+            return true;
         }
 
         [RelayCommand]
