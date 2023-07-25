@@ -1,1 +1,0 @@
-C:\Users\APTS\Desktop\MusicPlayerApp\Himi_MusicPlayer\Himi_MusicPlayer\Himi_MusicPlayer.csproj;x64
