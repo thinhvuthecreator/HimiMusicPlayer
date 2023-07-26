@@ -1,44 +1,66 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Himi_MusicPlayer.ViewModel"
+             x:DataType="viewmodel:SongPlayingPageViewModel"
              x:Class="Himi_MusicPlayer.View.SongPlayingPage"
              Title="SongPlayingPage"
              BackgroundImageSource="background.png">
     
     <VerticalStackLayout>
-        <Image Background="purple"
-               WidthRequest="260"
-               HeightRequest="260"
+
+        <ImageButton Source="threedot.png"
+                     HorizontalOptions="End"
+                     VerticalOptions="Start"
+                     WidthRequest="60"
+                     HeightRequest="30"
+                     Margin="0,10,-10,-40"/>
+        <Image WidthRequest="290"
+               HeightRequest="290"
                Margin="0,50,0,0"
                HorizontalOptions="Center"
                Source="songbackground.png"/>
-        
+
+
+        <Label x:Name="SongTitle"
+               Text="ASAP ROCKY - TESTING"
+               HorizontalOptions="Center"
+               Margin="0,20,0,-10"/>
+
         <StackLayout Padding="20" HorizontalOptions="Center">
 
-            <Slider HeightRequest="50"/>
+            <Label Text="0:00"
+                   HorizontalOptions="Center"/>
+            
+            <Slider HeightRequest="40"/>
             
             <StackLayout Orientation="Horizontal">
+                
                 <ImageButton HorizontalOptions="Start"
                              Margin="0,0,20,0"
                              HeightRequest="40"
                              WidthRequest="70"
                              Source="previous.png"
+                             Background="lightgray"
                              Padding="0"
                              CornerRadius="15"/>
 
                 <ImageButton HorizontalOptions="Center"
                              Margin="0,0,20,0"
-                             HeightRequest="70"
-                             WidthRequest="70"
+                             HeightRequest="100"
+                             WidthRequest="100"
                              CornerRadius="40"
-                             Source="play.png"
+                             Source="pause.png"
                              Padding="10"
-                             Background="orange"/>
+                             Background="orange"
+                             Command="{Binding Play_Pause_ClickCommand}"
+                             CommandParameter="{Binding Source={RelativeSource Self}}"/>
                     
                 <ImageButton HorizontalOptions="End"
                              HeightRequest="40"
                              WidthRequest="70"
                              Source="next.png"
+                             Background="lightgray"
                              Padding="0"
                              CornerRadius="15"/>
             </StackLayout>
