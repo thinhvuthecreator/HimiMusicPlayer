@@ -2,11 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Himi_MusicPlayer.View.SongPlayingPage"
-             Title="SongPlayingPage">
+             Title="SongPlayingPage"
+             BackgroundImageSource="background.png">
+    
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+        <Image Background="purple"
+               WidthRequest="260"
+               HeightRequest="260"
+               Margin="0,50,0,0"
+               HorizontalOptions="Center"
+               Source="songbackground.png"/>
+        
+        <StackLayout Padding="20" HorizontalOptions="Center">
+
+            <Slider HeightRequest="50"/>
+            
+            <StackLayout Orientation="Horizontal">
+                <ImageButton HorizontalOptions="Start"
+                             Margin="0,0,20,0"
+                             HeightRequest="40"
+                             WidthRequest="70"
+                             Source="previous.png"
+                             Padding="0"
+                             CornerRadius="15"/>
+
+                <ImageButton HorizontalOptions="Center"
+                             Margin="0,0,20,0"
+                             HeightRequest="70"
+                             WidthRequest="70"
+                             CornerRadius="40"
+                             Source="play.png"
+                             Padding="10"
+                             Background="orange"/>
+                    
+                <ImageButton HorizontalOptions="End"
+                             HeightRequest="40"
+                             WidthRequest="70"
+                             Source="next.png"
+                             Padding="0"
+                             CornerRadius="15"/>
+            </StackLayout>
+            
+        </StackLayout>
+        
+    </VerticalStackLayout> 
 </ContentPage>
